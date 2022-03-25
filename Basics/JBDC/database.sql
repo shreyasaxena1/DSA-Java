@@ -11,3 +11,9 @@ CREATE TABLE students(
   sname VARCHAR(11) NOT NULL,
   sphone VARCHAR(11)
 )
+
+INSERT INTO students
+(sname,sphone)
+VALUES
+('Shreya','9810101010'),
+('Prachi','9822222222')
